@@ -26,9 +26,9 @@
 
 #include <Pico_HCSR04.h>
 
-// GP18 == trigger, GP19 == echo
-#define TRIGPIN 18
-#define ECHOPIN 19
+// GP15 == trigger, GP14 == echo
+#define TRIGPIN 15
+#define ECHOPIN 14
 
 // Using pio0 and sm 0
 Pico_HCSR04 sonar(TRIGPIN, ECHOPIN, pio0, 0);
